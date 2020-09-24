@@ -55,7 +55,7 @@ public class AccountController {
     public static void sendToTelegram() {
         String urlString = "https://api.telegram.org/bot%s/sendMessage?chat_id=%s&text=%s";
 
-        String apiToken = "863343055:AAEC2gO7hBjZg3EsFn-tYAVQpIFiyYkupwY";
+        String apiToken = "";
         String chatId = "-1001299264251";
         String text = "Hello";
 
